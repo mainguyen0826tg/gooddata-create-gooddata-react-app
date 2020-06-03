@@ -16,6 +16,9 @@ const Links = () => {
             <NavLink to={"/"} className={styles.Link} activeClassName={styles.LinkActive} exact>
                 Home
             </NavLink>
+            <NavLink to={"/home2"} className={styles.Link} activeClassName={styles.LinkActive} exact>
+                Home2
+            </NavLink>
         </>
     );
 };

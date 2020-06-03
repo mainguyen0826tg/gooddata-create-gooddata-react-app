@@ -13,6 +13,7 @@ const Page = ({ children, className = null, mainClassName = null, title = "GoodD
                 <title>{title}</title>
             </Helmet>
             <Header />
+
             <main className={cx(styles.Main, mainClassName, "s-page")}>{children}</main>
             <Footer />
         </div>

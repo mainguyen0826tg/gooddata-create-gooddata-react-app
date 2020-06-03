@@ -1,12 +1,13 @@
 import React from "react";
-
+import { InsightView } from "@gooddata/sdk-ui-ext";
+// import  * as Ldm from "../../src/ldm/full";
+import { Ldm } from "../ldm";
 import Page from "../components/Page";
 
 const Home = () => {
-
     return (
         <Page>
-            Place your content here&hellip;
+            <InsightView insight={Ldm.Insights.HeadlineChart} />
         </Page>
     );
 };
